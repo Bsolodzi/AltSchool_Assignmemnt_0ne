@@ -1,0 +1,84 @@
+body {
+     background: url(pixel.jpg);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+     overflow: hidden;
+     background-color: rgb(24, 121, 136);
+     border-radius: 1%;
+}
+
+.navbar a {
+     float: right;
+     text-align: right;
+     color: #000;
+     text-decoration: none;
+     font-size: 18px;
+     font-size: 19px;
+     padding: 15px 22px;
+     border: 0;
+}
+
+.navbar a:hover {
+     color: rgb(184, 173, 173);
+     background-color: rgb(8, 33, 43);
+     border-radius: 35px;
+}
+
+.title {
+     margin-bottom: 10px;
+     text-align: center;
+     width: 250px;
+     color: black;
+     border: solid black 2px;
+}
+
+input[type="button"] {
+     background-color: rgb(188, 189, 194);
+     color: black;
+     border: solid black 2px;
+     width: 100%;
+     height: 100%;
+     border-radius: 25px;
+     font-size: 30px;
+}
+
+input[type="button"]:hover {
+     background-color: rgb(45, 119, 119);
+     border: 2px solid black;
+}
+
+input[type="text"] {
+     background-color: rgb(188, 189, 194);
+     border: solid rgb(25, 29, 30) 2px;
+     width: 97%;
+     height: 90%;
+     font-size: 23px;
+     border-radius: 10px;
+}
+
+h3 {
+    margin: auto;
+    color: rgb(230, 227, 226);
+     font-size: 40px; 
+}
+
+.title {
+     border-radius: 6px;
+     border: 2px solid rgb(123, 112, 82);
+     max-height: 300px;
+     max-width: 300px;
+     margin: 120px auto;
+     background-color: rgb(24, 121, 136);
+}
+
+.calculator {
+     max-height: 280px;
+     max-width: 300px;
+}
+
+td {
+     width: 20%;
+     height: 20%;
+}

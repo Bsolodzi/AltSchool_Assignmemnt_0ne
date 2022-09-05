@@ -1,0 +1,87 @@
+body {
+    background: url(pixel.jpg);
+}
+
+form {
+    border: 1px solid rgb(30, 97, 107);
+    height:500px;
+    width: 450px;
+    margin: 120px auto;
+    background-color: rgb(24, 121, 136);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div{
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.welcome {
+    font-size: 25px;
+}
+
+input {
+    border-radius: 5px;
+
+}
+
+.message {
+    line-height: 2;
+}
+
+select {
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(24, 121, 136);
+    border-radius: 1%;
+
+}
+
+.navbar a {
+    float: right;
+    text-align: right;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-size: 19px;
+    padding: 15px 22px;
+    border: 0;
+}
+
+.navbar a:hover {
+    color: rgb(184, 173, 173);
+    background-color: rgb(8, 33, 43);
+    border-radius: 35px;
+}
+
+a {
+    color: rgba(22, 32, 27, 0.944);
+}
+
+a:hover {
+    color: rgb(184, 173, 173);
+    background-color: rgb(6, 68, 64);
+}
+
+button {
+    background-color: aquamarine;
+    border: aquamarine solid 2px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 8px;
+}
+
+button:hover {
+    color: rgb(184, 173, 173);
+    background-color: rgb(8, 33, 43);
+}
+
+h2 {
+    color: rgb(230, 227, 226);
+}
